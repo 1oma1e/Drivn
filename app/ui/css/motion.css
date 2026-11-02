@@ -1,0 +1,85 @@
+/* Animations. One-shot entrances run in every mode; endless loops only in "full" mode.
+   "lite" (setting, or auto on Windows "animation effects off" / small CPUs) keeps the design but
+   freezes the background and drops the live blur, the two costliest things to draw. */
+
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes turn{to{rotate:360deg}}
+@keyframes fade{from{opacity:0}}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}}
+@keyframes rowin{from{opacity:0;transform:translateY(10px) scale(.98)}}
+@keyframes pop{from{opacity:0;transform:scale(.6)}}
+@keyframes okpop{0%{opacity:0;transform:scale(.3)}60%{transform:scale(1.25)}}
+@keyframes chipin{from{opacity:0;transform:translateY(8px) scale(.95)}}
+@keyframes swap{from{opacity:0;transform:scale(.85);filter:blur(6px)}}
+@keyframes slidein{from{opacity:0;transform:translateX(40px)}}
+@keyframes toast{from{opacity:0;transform:translate(-50%,16px)}}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes burst{from{opacity:.9}to{opacity:0;transform:scale(1.4)}}
+@keyframes fall{to{opacity:0;transform:translateY(170px) rotate(620deg)}}
+@keyframes shock{from{opacity:1;transform:scale(.9)}to{opacity:0;transform:scale(1.9)}}
+/* Windows Update search, no progress given: a short arc turns; it is feedback, not decoration. */
+.stage.indet .pr{stroke-dashoffset:860!important}
+.stage.indet .pring{animation:turn 1.4s linear infinite}
+@keyframes coreflash{from{box-shadow:inset 0 0 0 1px rgba(255,255,255,.2),0 0 0 0 rgba(255,255,255,.7)}to{box-shadow:inset 0 0 0 1px rgba(255,255,255,.2),0 0 0 40px rgba(255,255,255,0)}}
+
+.rise{animation:rise .55s var(--ease) both}
+.rise2{animation:rise .55s .1s var(--ease) both}
+.rise3{animation:rise .55s .22s var(--ease) both}
+.fade{animation:fade .3s ease-out both}
+
+/* Endless loops (full mode only). All of them animate transform or opacity, except three small text/bar shines. */
+@keyframes drift{to{transform:translate(90px,60px) scale(1.18)}}
+@keyframes twinkle{to{opacity:.12}}
+@keyframes gridmove{to{transform:translateY(64px)}}
+@keyframes shinex{0%,60%{transform:translateX(-160%) skewX(-20deg)}100%{transform:translateX(330%) skewX(-20deg)}}
+@keyframes heroshine{0%,70%{transform:translateX(-120%) skewX(-20deg)}100%{transform:translateX(320%) skewX(-20deg)}}
+@keyframes textshine{to{background-position:-250% 0}}
+@keyframes flow{to{background-position:-200% 0}}
+@keyframes pulse{from{opacity:.7;transform:scale(1)}to{opacity:0;transform:scale(1.4)}}
+@keyframes bob{50%{transform:translateY(-4px)}}
+@keyframes nudge{50%{transform:translateX(3px)}}
+@keyframes blink{50%{opacity:.35}}
+@keyframes bloompulse{50%{opacity:.95;scale:1.08}}
+@keyframes sonar{from{opacity:.55;transform:scale(1)}to{opacity:0;transform:scale(1.62)}}
+@keyframes arcrun{0%{stroke-dashoffset:60}45%,70%{stroke-dashoffset:0}100%{stroke-dashoffset:-60}}
+
+[data-motion=full] .neb{will-change:transform;animation:drift 30s ease-in-out infinite alternate}
+[data-motion=full] .n2{animation-duration:37s}
+[data-motion=full] .n3{animation-duration:44s}
+[data-motion=full] .stars{animation:twinkle 4s ease-in-out infinite alternate}
+[data-motion=full] .stars.t2{animation-delay:-2s}
+[data-motion=full] .floor::before{will-change:transform;animation:gridmove 3.5s linear infinite}
+[data-motion=full] .btnp::after{animation:shinex 3.4s ease-in-out infinite}
+[data-motion=full] .hero::before{animation:heroshine 5s ease-in-out infinite}
+[data-motion=full] .shine{animation:textshine 6s linear infinite}
+[data-motion=full] .fill{animation:flow 1.4s linear infinite}
+[data-motion=full] .hbadge::after{animation:pulse 2.4s ease-out infinite}
+[data-motion=full] .hbadge.up svg{animation:bob 1.6s ease-in-out infinite}
+[data-motion=full] .varrow{animation:nudge 1.6s ease-in-out infinite}
+[data-motion=full] .dot{animation:blink 1.6s infinite}
+[data-motion=full] .bloom{animation:turn 5s linear infinite,bloompulse 4s ease-in-out infinite}
+[data-motion=full] .hring{animation:turn 5s linear infinite}
+[data-motion=full] .orbit.o1{animation:spin 7s linear infinite}
+[data-motion=full] .orbit.o2{animation:spin 12s linear infinite reverse}
+[data-motion=full] .sonar{animation:sonar 3.6s cubic-bezier(.2,.6,.3,1) infinite}
+[data-motion=full] .sonar.s2{animation-delay:1.2s}
+[data-motion=full] .sonar.s3{animation-delay:2.4s}
+[data-motion=full] .core::before{animation:spin 40s linear infinite}
+[data-motion=full] .stage.scan .core::before{animation-duration:6s}
+[data-motion=full] .cm-arc{animation:arcrun 3.2s cubic-bezier(.6,0,.3,1) infinite}
+[data-motion=full] .cm-head{animation:fade 1.6s ease-in-out infinite alternate}
+
+/* Lite: in-place blur behind the glass is recomputed every frame; a denser glass looks almost the same. */
+[data-motion=lite] .win{-webkit-backdrop-filter:none;backdrop-filter:none;background:rgba(11,9,26,.9)}
+[data-motion=lite] .glass{-webkit-backdrop-filter:none;backdrop-filter:none;background:rgba(17,13,38,.97)}
+[data-motion=lite] .backdrop{-webkit-backdrop-filter:none;backdrop-filter:none;background:rgba(3,2,10,.75)}
+[data-motion=lite] .sonar{opacity:.25}
+[data-motion=lite] .cm-arc{stroke-dashoffset:0}
+
+/* Install pass: the running driver's border turns, the current stage breathes (full mode only). */
+@property --a{syntax:'<angle>';inherits:false;initial-value:0deg}
+@keyframes arot{to{--a:360deg}}
+@keyframes breathe{50%{box-shadow:0 0 0 4px rgba(196,181,253,.12)}}
+[data-motion=full] .idot.run::before{animation:arot 1.4s linear infinite}
+[data-motion=full] .istage.on{animation:breathe 1.6s ease-in-out infinite}
+[data-motion=full] .ipanel::after{animation:drift 9s ease-in-out infinite alternate}

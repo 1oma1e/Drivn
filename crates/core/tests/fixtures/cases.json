@@ -1,0 +1,310 @@
+{
+ "schema_version": 1,
+ "tool_version": "fixture",
+ "created_utc": "2026-10-31T00:00:00Z",
+ "machine": null,
+ "anonymized": true,
+ "includes_absent_devices": true,
+ "devices": [
+  {
+   "instance_id": "PCI\\DEVICE-0000",
+   "description": "Intel Wi-Fi 6E AX211",
+   "class": "Net",
+   "class_guid": null,
+   "manufacturer": null,
+   "present": true,
+   "problem_code": null,
+   "hardware_ids": [
+    "PCI\\VEN_8086&DEV_51F0&SUBSYS_00948086&REV_01",
+    "PCI\\VEN_8086&DEV_51F0&SUBSYS_00948086"
+   ],
+   "compatible_ids": [
+    "PCI\\VEN_8086&DEV_51F0"
+   ],
+   "driver": {
+    "version": "23.30.0.6",
+    "date": "2024-01-10",
+    "provider": "Intel",
+    "inf_path": "oem10.inf",
+    "rank": null,
+    "matching_device_id": "PCI\\VEN_8086&DEV_51F0&SUBSYS_00948086",
+    "signature": {
+     "state": "signed",
+     "signer": "Microsoft Windows Hardware Compatibility Publisher"
+    }
+   }
+  },
+  {
+   "instance_id": "PCI\\DEVICE-0001",
+   "description": "Realtek PCIe 2.5GbE (driver Dell)",
+   "class": "Net",
+   "class_guid": null,
+   "manufacturer": null,
+   "present": true,
+   "problem_code": null,
+   "hardware_ids": [
+    "PCI\\VEN_10EC&DEV_8125&SUBSYS_0B1A1028&REV_05",
+    "PCI\\VEN_10EC&DEV_8125&SUBSYS_0B1A1028"
+   ],
+   "compatible_ids": [
+    "PCI\\VEN_10EC&DEV_8125&REV_05",
+    "PCI\\VEN_10EC&DEV_8125"
+   ],
+   "driver": {
+    "version": "10.68.815.2023",
+    "date": "2023-08-15",
+    "provider": "Realtek",
+    "inf_path": "oem11.inf",
+    "rank": null,
+    "matching_device_id": "PCI\\VEN_10EC&DEV_8125&SUBSYS_0B1A1028",
+    "signature": {
+     "state": "signed",
+     "signer": "Microsoft Windows Hardware Compatibility Publisher"
+    }
+   }
+  },
+  {
+   "instance_id": "PCI\\DEVICE-0002",
+   "description": "Intel SMBus (chipset)",
+   "class": "System",
+   "class_guid": null,
+   "manufacturer": null,
+   "present": true,
+   "problem_code": null,
+   "hardware_ids": [
+    "PCI\\VEN_8086&DEV_7A23&SUBSYS_88821043"
+   ],
+   "compatible_ids": [
+    "PCI\\VEN_8086&DEV_7A23"
+   ],
+   "driver": {
+    "version": "10.1.19.8",
+    "date": "2023-05-02",
+    "provider": "INTEL",
+    "inf_path": "oem12.inf",
+    "rank": null,
+    "matching_device_id": "PCI\\VEN_8086&DEV_7A23&SUBSYS_88821043",
+    "signature": {
+     "state": "signed",
+     "signer": "Microsoft Windows Hardware Compatibility Publisher"
+    }
+   }
+  },
+  {
+   "instance_id": "PCI\\DEVICE-0003",
+   "description": "Intel UHD Graphics 770",
+   "class": "Display",
+   "class_guid": null,
+   "manufacturer": null,
+   "present": true,
+   "problem_code": null,
+   "hardware_ids": [
+    "PCI\\VEN_8086&DEV_4680&SUBSYS_88821043"
+   ],
+   "compatible_ids": [
+    "PCI\\VEN_8086&DEV_4680"
+   ],
+   "driver": {
+    "version": "31.0.101.5",
+    "date": "2024-06-01",
+    "provider": "Intel Corporation",
+    "inf_path": "oem13.inf",
+    "rank": null,
+    "matching_device_id": "PCI\\VEN_8086&DEV_4680&SUBSYS_88821043",
+    "signature": {
+     "state": "signed",
+     "signer": "Microsoft Windows Hardware Compatibility Publisher"
+    }
+   }
+  },
+  {
+   "instance_id": "ACPI\\DEVICE-0004",
+   "description": "Pavé tactile Synaptics",
+   "class": "Mouse",
+   "class_guid": null,
+   "manufacturer": null,
+   "present": true,
+   "problem_code": null,
+   "hardware_ids": [
+    "ACPI\\SYN1234"
+   ],
+   "compatible_ids": [
+    "ACPI\\PNP0F13"
+   ],
+   "driver": {
+    "version": "19.5.10.1",
+    "date": "2025-02-01",
+    "provider": "Synaptics",
+    "inf_path": "oem14.inf",
+    "rank": null,
+    "matching_device_id": "ACPI\\SYN1234",
+    "signature": {
+     "state": "signed",
+     "signer": "Microsoft Windows Hardware Compatibility Publisher"
+    }
+   }
+  },
+  {
+   "instance_id": "PCI\\DEVICE-0005",
+   "description": "Lecteur de cartes SD",
+   "class": "SCSIAdapter",
+   "class_guid": null,
+   "manufacturer": null,
+   "present": true,
+   "problem_code": null,
+   "hardware_ids": [
+    "PCI\\VEN_10EC&DEV_5260&SUBSYS_0A1B1028"
+   ],
+   "compatible_ids": [
+    "PCI\\VEN_10EC&DEV_5260"
+   ],
+   "driver": {
+    "version": "10.0.22000.1",
+    "date": "2022-03-10",
+    "provider": "Realtek",
+    "inf_path": "oem15.inf",
+    "rank": null,
+    "matching_device_id": "PCI\\VEN_10EC&DEV_5260&SUBSYS_0A1B1028",
+    "signature": {
+     "state": "signed",
+     "signer": "Microsoft Windows Hardware Compatibility Publisher"
+    }
+   }
+  },
+  {
+   "instance_id": "ACPI\\DEVICE-0006",
+   "description": "Capteur de lumière ambiante",
+   "class": "Sensor",
+   "class_guid": null,
+   "manufacturer": null,
+   "present": true,
+   "problem_code": 28,
+   "hardware_ids": [
+    "ACPI\\ALS0001"
+   ],
+   "compatible_ids": [
+    "ACPI\\PNP0C50"
+   ],
+   "driver": null
+  },
+  {
+   "instance_id": "ACPI\\DEVICE-0007",
+   "description": "Périphérique inconnu",
+   "class": null,
+   "class_guid": null,
+   "manufacturer": null,
+   "present": true,
+   "problem_code": 28,
+   "hardware_ids": [
+    "ACPI\\VEN_ABCD&DEV_0001"
+   ],
+   "compatible_ids": [],
+   "driver": null
+  },
+  {
+   "instance_id": "USB\\DEVICE-0008",
+   "description": "Webcam USB (débranchée)",
+   "class": "Camera",
+   "class_guid": null,
+   "manufacturer": null,
+   "present": false,
+   "problem_code": null,
+   "hardware_ids": [
+    "USB\\VID_046D&PID_085E"
+   ],
+   "compatible_ids": [
+    "USB\\Class_0E"
+   ],
+   "driver": {
+    "version": "1.0.0.12",
+    "date": "2023-01-01",
+    "provider": "Logitech",
+    "inf_path": "oem18.inf",
+    "rank": null,
+    "matching_device_id": "USB\\VID_046D&PID_085E",
+    "signature": {
+     "state": "signed",
+     "signer": "Microsoft Windows Hardware Compatibility Publisher"
+    }
+   }
+  }
+ ],
+ "windows_update": {
+  "criteria": "IsInstalled=0 and Type='Driver'",
+  "offers": [
+   {
+    "title": "Intel net Driver Update (23.60.1.2)",
+    "hardware_id": "pci\\ven_8086&dev_51f0&subsys_00948086",
+    "driver_date": "2024-07-03",
+    "provider": "Intel",
+    "manufacturer": null,
+    "model": null,
+    "class": null
+   },
+   {
+    "title": "Realtek Net Driver Update (10.72.1120.2024)",
+    "hardware_id": "PCI\\VEN_10EC&DEV_8125",
+    "driver_date": "2024-11-20",
+    "provider": "Realtek",
+    "manufacturer": null,
+    "model": null,
+    "class": null
+   },
+   {
+    "title": "Intel System Driver Update (10.1.20.1)",
+    "hardware_id": "PCI\\VEN_8086&DEV_7A23&SUBSYS_88821043",
+    "driver_date": "2024-02-01",
+    "provider": "Intel Corporation",
+    "manufacturer": null,
+    "model": null,
+    "class": null
+   },
+   {
+    "title": "Intel Display Driver Update (31.0.101.4)",
+    "hardware_id": "PCI\\VEN_8086&DEV_4680&SUBSYS_88821043",
+    "driver_date": "2024-03-01",
+    "provider": "Intel Corporation",
+    "manufacturer": null,
+    "model": null,
+    "class": null
+   },
+   {
+    "title": "Synaptics Mouse Driver Update (19.6.0.1)",
+    "hardware_id": "ACPI\\SYN1234",
+    "driver_date": "2024-11-01",
+    "provider": "Synaptics",
+    "manufacturer": null,
+    "model": null,
+    "class": null
+   },
+   {
+    "title": "Realtek Storage Driver Update",
+    "hardware_id": "PCI\\VEN_10EC&DEV_5260&SUBSYS_0A1B1028",
+    "driver_date": "2024-05-05",
+    "provider": "Realtek",
+    "manufacturer": null,
+    "model": null,
+    "class": null
+   },
+   {
+    "title": "Sensor Driver Update (2.0.1.0)",
+    "hardware_id": "ACPI\\PNP0C50",
+    "driver_date": "2024-08-08",
+    "provider": "Contoso",
+    "manufacturer": null,
+    "model": null,
+    "class": null
+   },
+   {
+    "title": "Logitech Camera Driver Update (2.0.0.1)",
+    "hardware_id": "USB\\VID_046D&PID_085E",
+    "driver_date": "2024-09-09",
+    "provider": "Logitech",
+    "manufacturer": null,
+    "model": null,
+    "class": null
+   }
+  ],
+  "error": null
+ }
+}

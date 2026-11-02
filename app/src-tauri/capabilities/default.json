@@ -1,0 +1,6 @@
+{
+  "identifier": "default",
+  "description": "The main window may call Drivn's own commands and receive their progress, nothing else.",
+  "windows": ["main"],
+  "permissions": ["core:default"]
+}

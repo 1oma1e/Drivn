@@ -1,0 +1,23 @@
+# cargo-about: full license texts of the crates built into Drivn for Windows.
+# Regenerate: cargo about generate -c tools/about/about.toml tools/about/notices.hbs -o THIRD-PARTY-NOTICES.md
+targets = ["x86_64-pc-windows-msvc"]
+ignore-build-dependencies = true
+ignore-dev-dependencies = true
+private = { ignore = true }
+accepted = [
+    "MIT",
+    "Apache-2.0",
+    "Apache-2.0 WITH LLVM-exception",
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "ISC",
+    "Zlib",
+    "Unicode-3.0",
+    "Unicode-DFS-2016",
+    "0BSD",
+    "CC0-1.0",
+    "Unlicense",
+    "MPL-2.0",
+    "BSL-1.0",
+    "CDLA-Permissive-2.0",
+]

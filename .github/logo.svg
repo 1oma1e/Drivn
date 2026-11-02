@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 40 40" role="img" aria-label="Drivn">
+<defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset=".45" stop-color="#6366F1"/><stop offset="1" stop-color="#D946EF"/></linearGradient>
+<radialGradient id="lgh" cx=".3" cy=".15" r=".8"><stop offset="0" stop-color="#fff" stop-opacity=".45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient></defs>
+<rect x="2" y="2" width="36" height="36" rx="11" fill="url(#lg)"/><rect x="2" y="2" width="36" height="36" rx="11" fill="url(#lgh)"/>
+<path d="M13 10v20M13 10h6a10 10 0 0 1 0 20h-2.5M19.5 27l-3 3 3 3" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>

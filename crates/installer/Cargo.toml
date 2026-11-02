@@ -1,0 +1,43 @@
+[package]
+name = "drivn-installer"
+description = "Elevated installer of Drivn (phase 2): runs one pass from a plan, writes its journal, rolls back one driver. Simulation unless real-mode is set (R-TST-01)."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "drivn-installer"
+path = "src/main.rs"
+# Its manifest asks for the UAC: a test harness built from it could not start (os error 740).
+# The tests live in the library.
+test = false
+
+[dependencies]
+drivn-core = { path = "../core" }
+serde_json.workspace = true
+
+[target.'cfg(windows)'.dependencies]
+drivn-windows = { path = "../windows" }
+cab = "0.6"
+windows = { version = "0.62", features = [
+    "Win32_Devices_DeviceAndDriverInstallation",
+    "Win32_Foundation",
+    "Win32_Security",
+    "Win32_Security_Authorization",
+    "Win32_Storage_FileSystem",
+    "Win32_System_Com",
+    "Win32_System_Diagnostics_Debug",
+    "Win32_System_Restore",
+    "Win32_System_SystemInformation",
+    "Win32_System_Threading",
+    "Win32_System_UpdateAgent",
+] }
+wmi = "0"
+serde = { workspace = true }
+
+[lints]
+workspace = true

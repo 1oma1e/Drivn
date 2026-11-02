@@ -1,0 +1,40 @@
+# Only what builds and tests Drivn is published. Notes, tools and settings of the author's own
+# workflow stay on the author's PC.
+docs/
+.githooks/
+.obsidian/
+app/dev/
+tools/*
+!tools/release.ps1
+!tools/about/
+
+# Secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pfx
+*.key
+
+# Builds
+target/
+dist/
+node_modules/
+app/src-tauri/gen/
+# Copy of drivn-installer.exe made by tools/release.ps1
+app/src-tauri/bin/
+
+# Tests: VMs, downloaded drivers, logs, scan snapshots (they identify a machine)
+*.iso
+*.vhdx
+*.avhdx
+vm/
+downloads/
+logs/
+*.log
+snapshots/
+
+# System
+Thumbs.db
+desktop.ini
+.DS_Store

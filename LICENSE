@@ -1,0 +1,44 @@
+Drivn
+Copyright (c) 2026 1oma1e. All rights reserved.
+
+This software, its source code, its interface, its name and its logo (the "Software") are the
+property of 1oma1e. The source code is made visible for reading only. No license is granted,
+express or implied, except the one in section 2.
+
+1. Without the prior written permission of 1oma1e, you may NOT:
+   - copy the Software, in whole or in part, by any means;
+   - modify it, translate it, adapt it, or create derivative works based on it;
+   - distribute, publish, republish, sublicense, sell, rent, lend or otherwise make the Software,
+     or any copy or derivative of it, available to anyone, including as a service;
+   - reverse engineer, decompile or disassemble the official installer or its programs, except
+     where the applicable law allows it despite this restriction;
+   - use the Software or its source code to train, fine-tune or evaluate machine-learning models;
+   - remove or change this notice, the copyright or the name of the author.
+
+2. The only use allowed is to download, install and run, for your own personal use, the official
+   installer published by 1oma1e on https://github.com/1oma1e/Drivn/releases.
+
+3. The repository is hosted on GitHub. Under GitHub's Terms of Service, GitHub users may view this
+   public repository and fork it on GitHub. That gives no other right: a fork stays covered by
+   this license, and nothing from it may be copied out, changed, built or published.
+
+4. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+   THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO
+   EVENT SHALL 1oma1e BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE
+   SOFTWARE OR ITS USE. Drivn changes drivers and applications of your PC: use it at your own risk,
+   with System Protection turned on.
+
+5. Third-party components included in the Software keep their own licenses: see
+   THIRD-PARTY-NOTICES.md.
+
+For any other use, ask 1oma1e first, in writing.
+
+---
+
+Drivn - Copyright (c) 2026 1oma1e. Tous droits réservés.
+Le code est visible pour être lu, rien de plus. Sans l'accord écrit de 1oma1e, il est interdit de
+le copier, de le modifier, de le traduire, de le redistribuer ou de le publier, en tout ou en
+partie, de décompiler le setup, ou d'utiliser le code pour entraîner une intelligence
+artificielle. Seul usage permis : installer et utiliser, pour soi, le setup officiel publié par
+1oma1e. Les conditions de GitHub permettent de voir et de « forker » le dépôt sur GitHub, sans
+autre droit. Aucune garantie : Drivn modifie les drivers et les applications du PC.

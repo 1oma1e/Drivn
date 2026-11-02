@@ -1,0 +1,67 @@
+/* Tokens, fonts, page shell (space background, window, rail). Infinite loops live in motion.css. */
+@font-face{font-family:Geist;src:url(../fonts/geist.woff2) format('woff2');font-weight:300 700;font-display:swap}
+@font-face{font-family:'Geist Mono';src:url(../fonts/geist-mono.woff2) format('woff2');font-weight:400 600;font-display:swap}
+@font-face{font-family:'Instrument Serif';src:url(../fonts/instrument-serif-italic.woff2) format('woff2');font-style:italic;font-display:swap}
+
+:root{
+  color-scheme:dark;
+  --bg:#04030B;--ink:#EDEBFF;--ink2:#C9C8EA;--ink3:#A9A8CC;--mute:#8E8FB5;--dim:#6E7096;--white:#FFFFFF;
+  --violet:#C4B5FD;--cyan:#7DD3FC;--pink:#F0ABFC;--ok:#6EE7B7;--okb:52,211,153;--warn:#FDE68A;--warnb:251,191,36;--bad:#FCA5A5;
+  --line:rgba(255,255,255,.08);--card:rgba(255,255,255,.035);
+  --grad:linear-gradient(135deg,#0EA5E9,#6366F1 55%,#C026D3);
+  --gtext:linear-gradient(135deg,#7DD3FC,#C4B5FD 50%,#F0ABFC);
+  --gline:linear-gradient(90deg,#38BDF8,#818CF8,#E879F9);
+  --ease:cubic-bezier(.2,.8,.2,1);--spring:cubic-bezier(.2,1.4,.4,1);--pop:cubic-bezier(.2,1.6,.4,1);
+  --sans:Geist,'Segoe UI Variable Text','Segoe UI',system-ui,sans-serif;--mono:'Geist Mono',Consolas,monospace;
+}
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;min-height:100%}
+body{background:var(--bg);color:var(--ink);font:14px/1.45 var(--sans);display:flex;align-items:center;justify-content:center;min-height:100vh;padding:20px 12px}
+button,input{font:inherit;color:inherit}
+button{cursor:pointer}
+h1,h2,p{margin:0}
+::selection{background:rgba(129,140,248,.4)}
+*{scrollbar-width:thin;scrollbar-color:rgba(255,255,255,.16) transparent}
+:focus-visible{outline:2px solid var(--violet);outline-offset:3px}
+.serif{font-family:'Instrument Serif',Georgia,serif;font-style:italic;font-weight:400}
+.mono{font-family:var(--mono)}
+.shine{background:linear-gradient(110deg,#7DD3FC,#A5B4FC 30%,#FFF 50%,#F0ABFC 68%,#7DD3FC);background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent}
+
+/* Space background. Nebulae are soft radial gradients (no blur filter): same look, nothing to recompute. */
+.space{position:fixed;inset:0;overflow:hidden;pointer-events:none;background:radial-gradient(120% 85% at 50% 0%,#1B1146,#0A0720 45%,var(--bg))}
+.neb{position:absolute;border-radius:50%}
+.n1{width:940px;height:740px;top:-330px;left:-270px;background:radial-gradient(closest-side,rgba(91,33,182,.5),rgba(91,33,182,.42) 35%,rgba(91,33,182,.16) 70%,transparent)}
+.n2{width:860px;height:860px;bottom:-390px;right:-330px;background:radial-gradient(closest-side,rgba(3,105,161,.38),rgba(3,105,161,.3) 35%,rgba(3,105,161,.12) 70%,transparent)}
+.n3{width:660px;height:660px;top:calc(32% - 110px);left:calc(52% - 110px);background:radial-gradient(closest-side,rgba(190,24,93,.24),rgba(190,24,93,.18) 35%,rgba(190,24,93,.07) 70%,transparent)}
+.stars{position:absolute;inset:0;opacity:.6;background-size:420px 420px;background-image:radial-gradient(1.2px 1.2px at 12% 18%,#FFF 50%,transparent 51%),radial-gradient(1px 1px at 28% 72%,#FFF 50%,transparent 51%),radial-gradient(1.4px 1.4px at 44% 32%,#E9D5FF 50%,transparent 51%),radial-gradient(1px 1px at 63% 12%,#FFF 50%,transparent 51%),radial-gradient(1.2px 1.2px at 78% 58%,#BAE6FD 50%,transparent 51%),radial-gradient(1px 1px at 90% 26%,#FFF 50%,transparent 51%),radial-gradient(1px 1px at 8% 88%,#FFF 50%,transparent 51%),radial-gradient(1.3px 1.3px at 52% 90%,#FFF 50%,transparent 51%)}
+.stars.t2{background-size:650px 650px;background-position:140px 90px;opacity:.45}
+.floor{position:absolute;left:-40%;right:-40%;bottom:-6%;height:46%;overflow:hidden;transform:perspective(420px) rotateX(64deg);transform-origin:50% 0;-webkit-mask-image:linear-gradient(to top,#000,transparent 75%);mask-image:linear-gradient(to top,#000,transparent 75%)}
+.floor::before{content:"";position:absolute;inset:-64px 0 0;background-image:linear-gradient(rgba(165,180,252,.22) 1px,transparent 1px),linear-gradient(90deg,rgba(165,180,252,.22) 1px,transparent 1px);background-size:64px 64px}
+
+/* Window and glass. */
+.win{position:relative;width:100%;max-width:1140px;height:clamp(600px,calc(100vh - 40px),860px);border-radius:26px;display:flex;overflow:hidden;background:rgba(11,9,26,.66);-webkit-backdrop-filter:blur(28px) saturate(160%);backdrop-filter:blur(28px) saturate(160%);border:1px solid var(--line);box-shadow:inset 0 1px 0 var(--line),0 0 0 1px rgba(129,140,248,.06),0 60px 120px -40px rgba(0,0,0,.9),0 0 120px -40px rgba(129,140,248,.35)}
+.glass{background:rgba(17,13,38,.9);-webkit-backdrop-filter:blur(24px);backdrop-filter:blur(24px);border:1px solid rgba(255,255,255,.1);box-shadow:0 30px 80px -20px rgba(0,0,0,.85)}
+/* Inside the app (Tauri) the window already is the frame. */
+.app body{padding:0}
+.app .win{max-width:none;height:100vh;border-radius:0;border:0}
+.main{flex:1;min-width:0;min-height:0;position:relative;display:flex;flex-direction:column}
+
+/* Rail. */
+.rail{flex:none;width:84px;display:flex;flex-direction:column;align-items:center;gap:6px;padding:18px 0;border-right:1px solid rgba(255,255,255,.06);background:rgba(4,3,11,.4);position:relative}
+.logo{margin-bottom:14px}
+.railbtn{position:relative;z-index:1;width:68px;height:62px;border:0;border-radius:16px;background:none;color:var(--mute);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font-size:11px;font-weight:500;transition:color .25s,transform .25s}
+.railbtn:hover{color:var(--ink);transform:translateY(-1px)}
+.railbtn.on{color:var(--white)}
+.railind{position:absolute;left:8px;top:calc(74px + var(--i) * 68px);width:68px;height:62px;border-radius:16px;background:linear-gradient(160deg,rgba(56,189,248,.18),rgba(232,121,249,.14));box-shadow:inset 0 0 0 1px rgba(196,181,253,.3),0 8px 24px -10px rgba(129,140,248,.6);transition:top .5s cubic-bezier(.3,1.35,.4,1)}
+.railind::before{content:"";position:absolute;left:-8px;top:18px;width:3px;height:26px;border-radius:3px;background:linear-gradient(#38BDF8,#E879F9);box-shadow:0 0 12px #A78BFA}
+.railupdate{margin:auto 8px 8px;padding:8px 6px;border:0;border-radius:12px;background:linear-gradient(135deg,#38BDF8,#E879F9);color:var(--white);font:inherit;font-size:11px;font-weight:700;display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;animation:pop .5s var(--pop) both}
+.railupdate:hover{filter:brightness(1.1)}
+.railbadge{position:absolute;top:6px;right:10px;min-width:16px;height:16px;padding:0 4px;border-radius:99px;background:linear-gradient(135deg,#38BDF8,#E879F9);color:var(--white);font-size:10px;font-weight:700;display:flex;align-items:center;justify-content:center;animation:pop .5s var(--pop) both}
+
+@media (max-width:760px){
+  body{padding:0}
+  .win{border-radius:0;height:100vh;flex-direction:column}
+  .rail{width:auto;flex-direction:row;justify-content:center;padding:8px;border-right:0;border-bottom:1px solid rgba(255,255,255,.06)}
+  .logo,.railind{display:none}
+  .railbtn.on{background:rgba(129,140,248,.18)}
+}

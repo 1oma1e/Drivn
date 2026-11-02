@@ -1,0 +1,15 @@
+[package]
+name = "drivn-scan"
+description = "Phase 0 prototype: read-only snapshot of devices and drivers, plus Windows Update driver offers."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+drivn-core = { path = "../core" }
+drivn-windows = { path = "../windows" }
+serde_json.workspace = true
+
+[lints]
+workspace = true

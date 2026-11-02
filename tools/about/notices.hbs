@@ -1,0 +1,30 @@
+# Third-party notices
+
+Drivn (Copyright (c) 2026 1oma1e, all rights reserved, see LICENSE) is built with the open-source
+components below, used unmodified. Each keeps its own license, reproduced in full here. The source
+of every component is available at the address listed with it.
+
+Fonts: Geist and Geist Mono (Vercel) and Instrument Serif, under the SIL Open Font License 1.1
+(full text in the installed app, `fonts/OFL.txt`).
+
+## Licenses used
+
+{{#each overview}}
+- {{{name}}} ({{count}})
+{{/each}}
+
+{{#each licenses}}
+---
+
+## {{{name}}}
+
+Used by:
+{{#each used_by}}
+- {{crate.name}} {{crate.version}}{{#if crate.repository}} ({{crate.repository}}){{/if}}
+{{/each}}
+
+```text
+{{{text}}}
+```
+
+{{/each}}

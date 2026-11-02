@@ -1,0 +1,4 @@
+# Link the C runtime statically: a fresh Windows has no VCRUNTIME140.dll
+# (found in the test VM on 2026-10-30), and Drivn must run without extra installs.
+[target.x86_64-pc-windows-msvc]
+rustflags = ["-C", "target-feature=+crt-static"]

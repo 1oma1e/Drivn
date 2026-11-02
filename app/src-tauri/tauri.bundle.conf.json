@@ -1,0 +1,28 @@
+{
+  "bundle": {
+    "active": true,
+    "targets": [
+      "nsis"
+    ],
+    "createUpdaterArtifacts": true,
+    "publisher": "1oma1e",
+    "shortDescription": "Drivers and apps up to date, from official sources only",
+    "resources": {
+      "bin/drivn-installer.exe": "drivn-installer.exe",
+      "../../LICENSE": "LICENSE.txt",
+      "../../THIRD-PARTY-NOTICES.md": "THIRD-PARTY-NOTICES.md"
+    },
+    "windows": {
+      "nsis": {
+        "installMode": "perMachine",
+        "languages": [
+          "English",
+          "French"
+        ],
+        "installerHooks": "nsis/hooks.nsh"
+      }
+    },
+    "copyright": "Copyright (c) 2026 1oma1e. All rights reserved.",
+    "license": "LicenseRef-Proprietary"
+  }
+}

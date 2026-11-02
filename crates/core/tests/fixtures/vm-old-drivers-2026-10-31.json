@@ -1,0 +1,2500 @@
+{
+  "schema_version": 1,
+  "tool_version": "0.1.0",
+  "created_utc": "2026-10-31T18:08:11Z",
+  "machine": null,
+  "anonymized": true,
+  "includes_absent_devices": true,
+  "devices": [
+    {
+      "instance_id": "ACPI\\DEVICE-0000",
+      "description": "ACPI Module Device",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "(Standard system devices)",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ACPI\\VEN_ACPI&DEV_0004",
+        "ACPI\\ACPI0004",
+        "*ACPI0004"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.1150",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "machine.inf",
+        "rank": 16711682,
+        "matching_device_id": "*ACPI0004",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "ACPI\\DEVICE-0001",
+      "description": "Intel(R) Core(TM) i7-14700K",
+      "class": "Processor",
+      "class_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+      "manufacturer": "Intel",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ACPI\\VEN_ACPI&DEV_0007",
+        "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183",
+        "*GenuineIntel_-_Intel64_Family_6_Model_183",
+        "ACPI\\GenuineIntel_-_Intel64_Family_6",
+        "*GenuineIntel_-_Intel64_Family_6",
+        "ACPI\\GenuineIntel_-_Intel64",
+        "*GenuineIntel_-_Intel64"
+      ],
+      "compatible_ids": [
+        "ACPI\\Processor"
+      ],
+      "driver": {
+        "version": "10.0.26100.9549",
+        "date": "2009-04-21",
+        "provider": "Microsoft",
+        "inf_path": "cpu.inf",
+        "rank": 16711685,
+        "matching_device_id": "ACPI\\GenuineIntel_-_Intel64",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "ACPI\\DEVICE-0002",
+      "description": "Intel(R) Core(TM) i7-14700K",
+      "class": "Processor",
+      "class_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+      "manufacturer": "Intel",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ACPI\\VEN_ACPI&DEV_0007",
+        "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183",
+        "*GenuineIntel_-_Intel64_Family_6_Model_183",
+        "ACPI\\GenuineIntel_-_Intel64_Family_6",
+        "*GenuineIntel_-_Intel64_Family_6",
+        "ACPI\\GenuineIntel_-_Intel64",
+        "*GenuineIntel_-_Intel64"
+      ],
+      "compatible_ids": [
+        "ACPI\\Processor"
+      ],
+      "driver": {
+        "version": "10.0.26100.9549",
+        "date": "2009-04-21",
+        "provider": "Microsoft",
+        "inf_path": "cpu.inf",
+        "rank": 16711685,
+        "matching_device_id": "ACPI\\GenuineIntel_-_Intel64",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "ACPI\\DEVICE-0003",
+      "description": "Microsoft Hyper-V Virtual Machine Bus",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ACPI\\VEN_MSFT&DEV_1000",
+        "ACPI\\MSFT1000",
+        "*MSFT1000"
+      ],
+      "compatible_ids": [
+        "ACPI\\VMBus",
+        "VMBus"
+      ],
+      "driver": {
+        "version": "10.0.26100.9278",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "wvmbus.inf",
+        "rank": 16719872,
+        "matching_device_id": "ACPI\\VMBus",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "ACPI\\DEVICE-0004",
+      "description": "Trusted Platform Module 2.0",
+      "class": "SecurityDevices",
+      "class_guid": "{d94ee5d8-d189-4994-83d2-f68d7d41b0e6}",
+      "manufacturer": "(Standard)",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ACPI\\VEN_MSFT&DEV_1001",
+        "ACPI\\MSFT1001",
+        "*MSFT1001"
+      ],
+      "compatible_ids": [
+        "ACPI\\MSFT0101",
+        "MSFT0101",
+        "ACPI\\VTPM0101",
+        "VTPM0101"
+      ],
+      "driver": {
+        "version": "10.0.26100.9549",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "tpm.inf",
+        "rank": 16719872,
+        "matching_device_id": "ACPI\\MSFT0101",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "ACPI\\DEVICE-0005",
+      "description": "Microsoft Hyper-V Generation Counter",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ACPI\\VEN_MSFT&DEV_1002",
+        "ACPI\\MSFT1002",
+        "*MSFT1002"
+      ],
+      "compatible_ids": [
+        "ACPI\\VM_Gen_Counter",
+        "VM_Gen_Counter",
+        "ACPI\\VMGENCTR",
+        "VMGENCTR",
+        "ACPI\\Hyper_V_Gen_Counter_V1",
+        "Hyper_V_Gen_Counter_V1"
+      ],
+      "driver": {
+        "version": "10.0.26100.1150",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "wgencounter.inf",
+        "rank": 16719873,
+        "matching_device_id": "VM_Gen_Counter",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "ACPI\\DEVICE-0006",
+      "description": "Advanced programmable interrupt controller",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "(Standard system devices)",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ACPI\\VEN_PNP&DEV_0003",
+        "ACPI\\PNP0003",
+        "*PNP0003"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.1150",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "machine.inf",
+        "rank": 16711682,
+        "matching_device_id": "*PNP0003",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "ACPI\\DEVICE-0007",
+      "description": "System CMOS/real time clock",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "(Standard system devices)",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ACPI\\VEN_PNP&DEV_0B00",
+        "ACPI\\PNP0B00",
+        "*PNP0B00"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.1150",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "machine.inf",
+        "rank": 16711682,
+        "matching_device_id": "*PNP0B00",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "ACPI_HAL\\DEVICE-0008",
+      "description": "Microsoft ACPI-Compliant System",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ACPI_HAL\\PNP0C08",
+        "*PNP0C08"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.9549",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "acpi.inf",
+        "rank": 16711681,
+        "matching_device_id": "*PNP0C08",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "DISPLAY\\DEVICE-0009",
+      "description": "Generic Monitor",
+      "class": "Monitor",
+      "class_guid": "{4d36e96e-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "(Standard monitor types)",
+      "present": false,
+      "problem_code": null,
+      "hardware_ids": [
+        "MONITOR\\Remote_Monitor"
+      ],
+      "compatible_ids": [
+        "*PNP09FF"
+      ],
+      "driver": {
+        "version": "10.0.26100.9278",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "monitor.inf",
+        "rank": 16719872,
+        "matching_device_id": "*PNP09FF",
+        "signature": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "instance_id": "DISPLAY\\DEVICE-0010",
+      "description": "Generic Monitor",
+      "class": "Monitor",
+      "class_guid": "{4d36e96e-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "(Standard monitor types)",
+      "present": false,
+      "problem_code": null,
+      "hardware_ids": [
+        "MONITOR\\Remote_Monitor"
+      ],
+      "compatible_ids": [
+        "*PNP09FF"
+      ],
+      "driver": {
+        "version": "10.0.26100.9278",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "monitor.inf",
+        "rank": 16719872,
+        "matching_device_id": "*PNP09FF",
+        "signature": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "instance_id": "DISPLAY\\DEVICE-0011",
+      "description": "Generic Monitor (HyperVMonitor)",
+      "class": "Monitor",
+      "class_guid": "{4d36e96e-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "(Standard monitor types)",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "MONITOR\\MSH062E"
+      ],
+      "compatible_ids": [
+        "*PNP09FF"
+      ],
+      "driver": {
+        "version": "10.0.26100.9278",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "monitor.inf",
+        "rank": 16719872,
+        "matching_device_id": "*PNP09FF",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "HID\\DEVICE-0012",
+      "description": "HID-compliant mouse",
+      "class": "Mouse",
+      "class_guid": "{4d36e96f-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "HID\\{cfa8b69e-5b4a-4cc0-b98b-8ba1a1f3f95a}",
+        "HID\\{58f75a6d-d949-4320-99e1-a2a2576d581c}",
+        "HID\\VID_045E&UP:0001_U:0002",
+        "HID_DEVICE_SYSTEM_MOUSE",
+        "HID_DEVICE_UP:0001_U:0002",
+        "HID_DEVICE"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.1150",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "msmouse.inf",
+        "rank": 16715779,
+        "matching_device_id": "HID_DEVICE_SYSTEM_MOUSE",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "HTREE\\DEVICE-0013",
+      "description": null,
+      "class": null,
+      "class_guid": null,
+      "manufacturer": null,
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [],
+      "compatible_ids": [],
+      "driver": null
+    },
+    {
+      "instance_id": "ROOT\\DEVICE-0014",
+      "description": "ACPI x64-based PC",
+      "class": "Computer",
+      "class_guid": "{4d36e966-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "(Standard computers)",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "acpiapic"
+      ],
+      "compatible_ids": [
+        "DETECTEDInternal\\ACPI_HAL",
+        "DETECTED\\ACPI_HAL"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "hal.inf",
+        "rank": 16711680,
+        "matching_device_id": "acpiapic",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "ROOT\\DEVICE-0015",
+      "description": "Voice Clarity",
+      "class": "AudioProcessingObject",
+      "class_guid": "{5989fce8-9cd0-467d-8a6a-5419e31529d4}",
+      "manufacturer": "Microsoft Corporation",
+      "present": true,
+      "problem_code": 22,
+      "hardware_ids": [
+        "SWC\\VEN_MSFT&AUDIO_EFFECTPACK_VOICECLARITY"
+      ],
+      "compatible_ids": [
+        "SWC\\Generic",
+        "SWD\\GenericRaw"
+      ],
+      "driver": {
+        "version": "1.0.3.56670",
+        "date": "2026-05-04",
+        "provider": "Microsoft Corporation",
+        "inf_path": "oem7.inf",
+        "rank": 16711680,
+        "matching_device_id": "SWC\\VEN_MSFT&AUDIO_EFFECTPACK_VOICECLARITY",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows Hardware Compatibility Publisher"
+        }
+      }
+    },
+    {
+      "instance_id": "ROOT\\DEVICE-0016",
+      "description": "Intel(R) Wireless Bluetooth(R)",
+      "class": "Bluetooth",
+      "class_guid": "{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}",
+      "manufacturer": "Intel Corporation",
+      "present": true,
+      "problem_code": 22,
+      "hardware_ids": [
+        "USB\\VID_8087&PID_0033&REV_0000",
+        "USB\\VID_8087&PID_0033"
+      ],
+      "compatible_ids": [
+        "USB\\COMPAT_VID_8087&Class_E0&SubClass_01&Prot_01",
+        "USB\\COMPAT_VID_8087&Class_E0&SubClass_01"
+      ],
+      "driver": {
+        "version": "24.40.10.8",
+        "date": "2026-06-08",
+        "provider": "Intel Corporation",
+        "inf_path": "oem1.inf",
+        "rank": 16711680,
+        "matching_device_id": "USB\\VID_8087&PID_0033&REV_0000",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows Hardware Compatibility Publisher"
+        }
+      }
+    },
+    {
+      "instance_id": "ROOT\\DEVICE-0017",
+      "description": "Microsoft Basic Display Driver",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "(Standard display types)",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ROOT\\BasicDisplay"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.8521",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "basicdisplay.inf",
+        "rank": 16449536,
+        "matching_device_id": "ROOT\\BasicDisplay",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "ROOT\\DEVICE-0018",
+      "description": "Microsoft Basic Render Driver",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ROOT\\BasicRender"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.9711",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "basicrender.inf",
+        "rank": 16449536,
+        "matching_device_id": "ROOT\\BasicRender",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "ROOT\\DEVICE-0019",
+      "description": "Composite Bus Enumerator",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ROOT\\CompositeBus"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.1150",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "compositebus.inf",
+        "rank": 16711680,
+        "matching_device_id": "ROOT\\CompositeBus",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "ROOT\\DEVICE-0020",
+      "description": "Microsoft Kernel Debug Network Adapter",
+      "class": "Net",
+      "class_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "root\\kdnic"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.8521",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "kdnic.inf",
+        "rank": 16711680,
+        "matching_device_id": "root\\kdnic",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "ROOT\\DEVICE-0021",
+      "description": null,
+      "class": "MEDIA",
+      "class_guid": "{4d36e96c-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": null,
+      "present": true,
+      "problem_code": 22,
+      "hardware_ids": [
+        "HDAUDIO\\FUNC_01&VEN_10DE&DEV_00A4&SUBSYS_14584141&REV_1001",
+        "HDAUDIO\\FUNC_01&VEN_10DE&DEV_00A4&SUBSYS_14584141"
+      ],
+      "compatible_ids": [
+        "HDAUDIO\\FUNC_01&CTLR_VEN_10DE&CTLR_DEV_22BB&VEN_10DE&DEV_00A4&REV_1001",
+        "HDAUDIO\\FUNC_01&CTLR_VEN_10DE&VEN_10DE&DEV_00A4&REV_1001"
+      ],
+      "driver": null
+    },
+    {
+      "instance_id": "ROOT\\DEVICE-0022",
+      "description": "NVIDIA Virtual Audio Device (Wave Extensible) (WDM)",
+      "class": "MEDIA",
+      "class_guid": "{4d36e96c-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": 22,
+      "hardware_ids": [
+        "USB\\VID_0955&PID_9000"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "4.65.0.12",
+        "date": "2025-05-13",
+        "provider": "NVIDIA",
+        "inf_path": "oem9.inf",
+        "rank": 16711680,
+        "matching_device_id": "USB\\VID_0955&PID_9000",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows Hardware Compatibility Publisher"
+        }
+      }
+    },
+    {
+      "instance_id": "ROOT\\DEVICE-0023",
+      "description": "Alienware AW3225QF(DisplayPort HDR)",
+      "class": "Monitor",
+      "class_guid": "{4d36e96e-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Dell Inc.",
+      "present": true,
+      "problem_code": 22,
+      "hardware_ids": [
+        "MONITOR\\DELA246"
+      ],
+      "compatible_ids": [
+        "*PNP09FF"
+      ],
+      "driver": {
+        "version": "1.0.0.0",
+        "date": "2023-08-22",
+        "provider": "Dell Inc.",
+        "inf_path": "oem8.inf",
+        "rank": 16711680,
+        "matching_device_id": "MONITOR\\DELA246",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows Hardware Compatibility Publisher"
+        }
+      }
+    },
+    {
+      "instance_id": "ROOT\\DEVICE-0024",
+      "description": "Intel(R) Wi-Fi 6E AX211 160MHz",
+      "class": "Net",
+      "class_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Intel Corporation",
+      "present": true,
+      "problem_code": 22,
+      "hardware_ids": [
+        "PCI\\VEN_8086&DEV_7A70&SUBSYS_00948086&REV_11",
+        "PCI\\VEN_8086&DEV_7A70&SUBSYS_00948086",
+        "PCI\\VEN_8086&DEV_7A70&CC_028000"
+      ],
+      "compatible_ids": [
+        "PCI\\VEN_8086&DEV_7A70&REV_11",
+        "PCI\\VEN_8086&DEV_7A70"
+      ],
+      "driver": {
+        "version": "24.50.0.4",
+        "date": "2026-05-20",
+        "provider": "Intel",
+        "inf_path": "oem2.inf",
+        "rank": 16711681,
+        "matching_device_id": "PCI\\VEN_8086&DEV_7A70&SUBSYS_00948086",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows Hardware Compatibility Publisher"
+        }
+      }
+    },
+    {
+      "instance_id": "ROOT\\DEVICE-0025",
+      "description": "Intel(R) Ethernet Controller I226-V",
+      "class": "Net",
+      "class_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Intel",
+      "present": true,
+      "problem_code": 22,
+      "hardware_ids": [
+        "PCI\\VEN_8086&DEV_125C&SUBSYS_88671043&REV_06",
+        "PCI\\VEN_8086&DEV_125C&SUBSYS_88671043",
+        "PCI\\VEN_8086&DEV_125C&CC_020000"
+      ],
+      "compatible_ids": [
+        "PCI\\VEN_8086&DEV_125C&REV_06",
+        "PCI\\VEN_8086&DEV_125C"
+      ],
+      "driver": {
+        "version": "2.1.5.7",
+        "date": "2026-01-19",
+        "provider": "Intel",
+        "inf_path": "oem4.inf",
+        "rank": 16719873,
+        "matching_device_id": "PCI\\VEN_8086&DEV_125C",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows Hardware Compatibility Publisher"
+        }
+      }
+    },
+    {
+      "instance_id": "ROOT\\DEVICE-0026",
+      "description": "NDIS Virtual Network Adapter Enumerator",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ROOT\\NdisVirtualBus"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "ndisvirtualbus.inf",
+        "rank": 16711680,
+        "matching_device_id": "ROOT\\NdisVirtualBus",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "ROOT\\DEVICE-0027",
+      "description": "Remote Desktop Device Redirector Bus",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ROOT\\RDPBUS"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.8972",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "rdpbus.inf",
+        "rank": 16711680,
+        "matching_device_id": "ROOT\\RDPBUS",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "ROOT\\DEVICE-0028",
+      "description": "Alienware Command Center Win32 Component Device",
+      "class": "SoftwareComponent",
+      "class_guid": "{5c4c3332-344d-483c-8739-259e934c9cc8}",
+      "manufacturer": "Alienware",
+      "present": true,
+      "problem_code": 22,
+      "hardware_ids": [
+        "SWC\\VID001&PID0001&AWCCWINUI3APP"
+      ],
+      "compatible_ids": [
+        "SWC\\Generic",
+        "SWD\\GenericRaw"
+      ],
+      "driver": {
+        "version": "2.7.2.0",
+        "date": "2026-05-18",
+        "provider": "Alienware",
+        "inf_path": "oem3.inf",
+        "rank": 16711680,
+        "matching_device_id": "SWC\\VID001&PID0001&AWCCWINUI3APP",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows Hardware Compatibility Publisher"
+        }
+      }
+    },
+    {
+      "instance_id": "ROOT\\DEVICE-0029",
+      "description": "Plug and Play Software Device Enumerator",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "(Standard system devices)",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ROOT\\SWENUM"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.4202",
+        "date": "2025-05-23",
+        "provider": "Microsoft",
+        "inf_path": "swenum.inf",
+        "rank": 16711680,
+        "matching_device_id": "ROOT\\SWENUM",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "ROOT\\DEVICE-0030",
+      "description": "Intel(R) Management Engine Interface #1",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Intel",
+      "present": true,
+      "problem_code": 22,
+      "hardware_ids": [
+        "PCI\\VEN_8086&DEV_7A68&SUBSYS_88821043&REV_11",
+        "PCI\\VEN_8086&DEV_7A68&SUBSYS_88821043",
+        "PCI\\VEN_8086&DEV_7A68&CC_078000"
+      ],
+      "compatible_ids": [
+        "PCI\\VEN_8086&DEV_7A68&REV_11",
+        "PCI\\VEN_8086&DEV_7A68"
+      ],
+      "driver": {
+        "version": "2406.5.5.0",
+        "date": "2024-02-08",
+        "provider": "Intel",
+        "inf_path": "oem5.inf",
+        "rank": 16719873,
+        "matching_device_id": "PCI\\VEN_8086&DEV_7A68",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows Hardware Compatibility Publisher"
+        }
+      }
+    },
+    {
+      "instance_id": "ROOT\\DEVICE-0031",
+      "description": "UMBus Root Bus Enumerator",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "root\\umbus"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.1150",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "umbus.inf",
+        "rank": 16711680,
+        "matching_device_id": "root\\umbus",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "ROOT\\DEVICE-0032",
+      "description": "Microsoft Hyper-V Virtualization Infrastructure Driver",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ROOT\\VID"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.9711",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "wvid.inf",
+        "rank": 16711680,
+        "matching_device_id": "ROOT\\VID",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "ROOT\\DEVICE-0033",
+      "description": "Microsoft System Management BIOS Driver",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "(Standard system devices)",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ROOT\\mssmbios"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "mssmbios.inf",
+        "rank": 16711680,
+        "matching_device_id": "ROOT\\mssmbios",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "ROOT\\DEVICE-0034",
+      "description": "Microsoft Storage Spaces Controller",
+      "class": "SCSIAdapter",
+      "class_guid": "{4d36e97b-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "Root\\Spaceport"
+      ],
+      "compatible_ids": [
+        "DETECTEDInternal\\spaceport",
+        "DETECTED\\spaceport"
+      ],
+      "driver": {
+        "version": "10.0.26100.9711",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "spaceport.inf",
+        "rank": 16711680,
+        "matching_device_id": "Root\\Spaceport",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "ROOT\\DEVICE-0035",
+      "description": "Microsoft Virtual Drive Enumerator",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ROOT\\vdrvroot"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.1591",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "vdrvroot.inf",
+        "rank": 16711680,
+        "matching_device_id": "ROOT\\vdrvroot",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "ROOT\\DEVICE-0036",
+      "description": "Volume Manager",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ROOT\\VOLMGR"
+      ],
+      "compatible_ids": [
+        "DETECTEDInternal\\volmgr",
+        "DETECTED\\volmgr"
+      ],
+      "driver": {
+        "version": "10.0.26100.9711",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "volmgr.inf",
+        "rank": 16711680,
+        "matching_device_id": "ROOT\\VOLMGR",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "SCSI\\DEVICE-0037",
+      "description": "Microsoft Virtual DVD-ROM",
+      "class": "CDROM",
+      "class_guid": "{4d36e965-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "(Standard CD-ROM drives)",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "SCSI\\CdRomMsft____Virtual_DVD-ROM_1.0_",
+        "SCSI\\CdRomMsft____Virtual_DVD-ROM_",
+        "SCSI\\CdRomMsft____",
+        "SCSI\\Msft____Virtual_DVD-ROM_1",
+        "Msft____Virtual_DVD-ROM_1",
+        "GenCdRom"
+      ],
+      "compatible_ids": [
+        "SCSI\\CdRom",
+        "SCSI\\RAW"
+      ],
+      "driver": {
+        "version": "10.0.26100.9711",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "cdrom.inf",
+        "rank": 16711681,
+        "matching_device_id": "SCSI\\CdRomMsft____Virtual_DVD-ROM_",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "SCSI\\DEVICE-0038",
+      "description": "Microsoft Virtual Disk",
+      "class": "DiskDrive",
+      "class_guid": "{4d36e967-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "(Standard disk drives)",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "SCSI\\DiskMsft____Virtual_Disk____1.0_",
+        "SCSI\\DiskMsft____Virtual_Disk____",
+        "SCSI\\DiskMsft____",
+        "SCSI\\Msft____Virtual_Disk____1",
+        "Msft____Virtual_Disk____1",
+        "GenDisk"
+      ],
+      "compatible_ids": [
+        "SCSI\\Disk",
+        "SCSI\\RAW"
+      ],
+      "driver": {
+        "version": "10.0.26100.9711",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "disk.inf",
+        "rank": 16711681,
+        "matching_device_id": "SCSI\\DiskMsft____Virtual_Disk____",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "STORAGE\\DEVICE-0039",
+      "description": "Generic volume shadow copy",
+      "class": "VolumeSnapshot",
+      "class_guid": "{533c5b84-ec70-11d2-9505-00c04f79deaf}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "STORAGE\\VolumeSnapshot"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "volsnap.inf",
+        "rank": 16711680,
+        "matching_device_id": "STORAGE\\VolumeSnapshot",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "STORAGE\\DEVICE-0040",
+      "description": "Generic volume shadow copy",
+      "class": "VolumeSnapshot",
+      "class_guid": "{533c5b84-ec70-11d2-9505-00c04f79deaf}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "STORAGE\\VolumeSnapshot"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "volsnap.inf",
+        "rank": 16711680,
+        "matching_device_id": "STORAGE\\VolumeSnapshot",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "STORAGE\\DEVICE-0041",
+      "description": "Volume",
+      "class": "Volume",
+      "class_guid": "{71a27cdd-812a-11d0-bec7-08002be2092f}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "STORAGE\\Volume"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.5074",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "volume.inf",
+        "rank": 16711680,
+        "matching_device_id": "STORAGE\\Volume",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "STORAGE\\DEVICE-0042",
+      "description": "Volume",
+      "class": "Volume",
+      "class_guid": "{71a27cdd-812a-11d0-bec7-08002be2092f}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "STORAGE\\Volume"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.5074",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "volume.inf",
+        "rank": 16711680,
+        "matching_device_id": "STORAGE\\Volume",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "STORAGE\\DEVICE-0043",
+      "description": "Volume",
+      "class": "Volume",
+      "class_guid": "{71a27cdd-812a-11d0-bec7-08002be2092f}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "STORAGE\\Volume"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.5074",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "volume.inf",
+        "rank": 16711680,
+        "matching_device_id": "STORAGE\\Volume",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "STORAGE\\DEVICE-0044",
+      "description": "Volume",
+      "class": "Volume",
+      "class_guid": "{71a27cdd-812a-11d0-bec7-08002be2092f}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "STORAGE\\Volume"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.5074",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "volume.inf",
+        "rank": 16711680,
+        "matching_device_id": "STORAGE\\Volume",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "SWD\\DEVICE-0045",
+      "description": "Microsoft Corporation Virtual Machine",
+      "class": "Computer",
+      "class_guid": "{4d36e966-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "COMPUTER\\{F6C7E91E-C4A5-555D-B72D-B6B4AA7B7C17}",
+        "COMPUTER\\{E7D326AF-283D-5AFB-AA18-5182211FF5FF}",
+        "COMPUTER\\{99F7465A-34BB-5454-8B35-5187732EF22A}",
+        "COMPUTER\\{F6D11450-9814-5CA6-AFC5-AA9F79EDA934}",
+        "COMPUTER\\{4DF1FB0A-E4C2-54EF-92BD-77E33B683B49}",
+        "COMPUTER\\{A3C0BCC5-05F2-52F3-AEEB-C4EA4A082DBB}",
+        "COMPUTER\\{1E6D517D-274F-5F72-AAC8-A8EFD0922E55}",
+        "COMPUTER\\{A39CADF4-A4C7-5D94-A830-21DCFA5F93FA}",
+        "COMPUTER\\{27793478-B19B-57B6-9B0B-17FD52BB3E83}",
+        "COMPUTER\\{6D4071DB-0B8F-520B-806C-81E804431336}",
+        "COMPUTER\\{27793478-B19B-57B6-9B0B-17FD52BB3E83}",
+        "COMPUTER\\{6D4071DB-0B8F-520B-806C-81E804431336}"
+      ],
+      "compatible_ids": [
+        "COMPUTER\\Generic",
+        "SWD\\GenericRaw",
+        "SWD\\Generic"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "compdev.inf",
+        "rank": 8192,
+        "matching_device_id": "COMPUTER\\Generic",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "SWD\\DEVICE-0046",
+      "description": "Voice Clarity",
+      "class": "AudioProcessingObject",
+      "class_guid": "{5989fce8-9cd0-467d-8a6a-5419e31529d4}",
+      "manufacturer": "Microsoft Corporation",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "SWC\\VEN_MSFT&AUDIO_EFFECTPACK_VOICECLARITY"
+      ],
+      "compatible_ids": [
+        "SWC\\Generic",
+        "SWD\\GenericRaw",
+        "SWD\\Generic"
+      ],
+      "driver": {
+        "version": "1.0.3.56670",
+        "date": "2026-05-04",
+        "provider": "Microsoft Corporation",
+        "inf_path": "oem7.inf",
+        "rank": 16711680,
+        "matching_device_id": "SWC\\VEN_MSFT&AUDIO_EFFECTPACK_VOICECLARITY",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows Hardware Compatibility Publisher"
+        }
+      }
+    },
+    {
+      "instance_id": "SWD\\DEVICE-0047",
+      "description": "Synthé. de table de sons Microsoft GS",
+      "class": "SoftwareDevice",
+      "class_guid": "{62f9c741-b25a-46ce-b54c-9bccce08b6f2}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [],
+      "compatible_ids": [
+        "SWD\\GenericRaw",
+        "SWD\\Generic"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "c_swdevice.inf",
+        "rank": 16723968,
+        "matching_device_id": "SWD\\GenericRaw",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "SWD\\DEVICE-0048",
+      "description": "WAN Miniport (IKEv2)",
+      "class": "Net",
+      "class_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ms_agilevpnminiport"
+      ],
+      "compatible_ids": [
+        "SWD\\Generic"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "netavpna.inf",
+        "rank": 16711680,
+        "matching_device_id": "ms_agilevpnminiport",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "SWD\\DEVICE-0049",
+      "description": "WAN Miniport (L2TP)",
+      "class": "Net",
+      "class_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ms_l2tpminiport"
+      ],
+      "compatible_ids": [
+        "SWD\\Generic"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "netrasa.inf",
+        "rank": 16711680,
+        "matching_device_id": "ms_l2tpminiport",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "SWD\\DEVICE-0050",
+      "description": "WAN Miniport (Network Monitor)",
+      "class": "Net",
+      "class_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ms_ndiswanbh"
+      ],
+      "compatible_ids": [
+        "SWD\\Generic"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "netrasa.inf",
+        "rank": 16711680,
+        "matching_device_id": "ms_ndiswanbh",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "SWD\\DEVICE-0051",
+      "description": "WAN Miniport (IP)",
+      "class": "Net",
+      "class_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ms_ndiswanip"
+      ],
+      "compatible_ids": [
+        "SWD\\Generic"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "netrasa.inf",
+        "rank": 16711680,
+        "matching_device_id": "ms_ndiswanip",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "SWD\\DEVICE-0052",
+      "description": "WAN Miniport (IPv6)",
+      "class": "Net",
+      "class_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ms_ndiswanipv6"
+      ],
+      "compatible_ids": [
+        "SWD\\Generic"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "netrasa.inf",
+        "rank": 16711680,
+        "matching_device_id": "ms_ndiswanipv6",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "SWD\\DEVICE-0053",
+      "description": "WAN Miniport (PPPOE)",
+      "class": "Net",
+      "class_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ms_pppoeminiport"
+      ],
+      "compatible_ids": [
+        "SWD\\Generic"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "netrasa.inf",
+        "rank": 16711680,
+        "matching_device_id": "ms_pppoeminiport",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "SWD\\DEVICE-0054",
+      "description": "WAN Miniport (PPTP)",
+      "class": "Net",
+      "class_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ms_pptpminiport"
+      ],
+      "compatible_ids": [
+        "SWD\\Generic"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "netrasa.inf",
+        "rank": 16711680,
+        "matching_device_id": "ms_pptpminiport",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "SWD\\DEVICE-0055",
+      "description": "WAN Miniport (SSTP)",
+      "class": "Net",
+      "class_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "ms_sstpminiport"
+      ],
+      "compatible_ids": [
+        "SWD\\Generic"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "netsstpa.inf",
+        "rank": 16711680,
+        "matching_device_id": "ms_sstpminiport",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "SWD\\DEVICE-0056",
+      "description": "Microsoft RRAS Root Enumerator",
+      "class": "SoftwareDevice",
+      "class_guid": "{62f9c741-b25a-46ce-b54c-9bccce08b6f2}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [],
+      "compatible_ids": [
+        "SWD\\GenericRaw",
+        "SWD\\Generic"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "c_swdevice.inf",
+        "rank": 16723968,
+        "matching_device_id": "SWD\\GenericRaw",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "SWD\\DEVICE-0057",
+      "description": "File d’attente d’impression racine",
+      "class": "PrintQueue",
+      "class_guid": "{1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "PRINTENUM\\LocalPrintQueue"
+      ],
+      "compatible_ids": [
+        "SWD\\GenericRaw",
+        "SWD\\Generic"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "printqueue.inf",
+        "rank": 0,
+        "matching_device_id": "PRINTENUM\\LocalPrintQueue",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "SWD\\DEVICE-0058",
+      "description": "Microsoft Print to PDF",
+      "class": "PrintQueue",
+      "class_guid": "{1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "PRINTENUM\\{084f01fa-e634-4d77-83ee-074817c03581}",
+        "PRINTENUM\\LocalPrintQueue",
+        "{084f01fa-e634-4d77-83ee-074817c03581}"
+      ],
+      "compatible_ids": [
+        "GenPrintQueue",
+        "SWD\\GenericRaw",
+        "SWD\\Generic"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "printqueue.inf",
+        "rank": 1,
+        "matching_device_id": "PRINTENUM\\LocalPrintQueue",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "SWD\\DEVICE-0059",
+      "description": "Microsoft Radio Device Enumeration Bus",
+      "class": "SoftwareDevice",
+      "class_guid": "{62f9c741-b25a-46ce-b54c-9bccce08b6f2}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [],
+      "compatible_ids": [
+        "SWD\\GenericRaw",
+        "SWD\\Generic"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "c_swdevice.inf",
+        "rank": 16723968,
+        "matching_device_id": "SWD\\GenericRaw",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "SWD\\DEVICE-0060",
+      "description": "Microsoft Remote Display Adapter",
+      "class": "Display",
+      "class_guid": "{4d36e968-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": false,
+      "problem_code": null,
+      "hardware_ids": [
+        "RdpIdd_IndirectDisplay"
+      ],
+      "compatible_ids": [
+        "RdpIdd_IndirectDisplay",
+        "SWD\\Generic"
+      ],
+      "driver": {
+        "version": "10.0.26100.9711",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "rdpidd.inf",
+        "rank": 16711680,
+        "matching_device_id": "RdpIdd_IndirectDisplay",
+        "signature": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "instance_id": "SWD\\DEVICE-0061",
+      "description": "Microsoft Remote Display Adapter",
+      "class": "Display",
+      "class_guid": "{4d36e968-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": false,
+      "problem_code": null,
+      "hardware_ids": [
+        "RdpIdd_IndirectDisplay"
+      ],
+      "compatible_ids": [
+        "RdpIdd_IndirectDisplay",
+        "SWD\\Generic"
+      ],
+      "driver": {
+        "version": "10.0.26100.9711",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "rdpidd.inf",
+        "rank": 16711680,
+        "matching_device_id": "RdpIdd_IndirectDisplay",
+        "signature": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "instance_id": "SWD\\DEVICE-0062",
+      "description": "Smart Card Device Enumeration Bus",
+      "class": "SoftwareDevice",
+      "class_guid": "{62f9c741-b25a-46ce-b54c-9bccce08b6f2}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [],
+      "compatible_ids": [
+        "SWD\\GenericRaw",
+        "SWD\\Generic"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "c_swdevice.inf",
+        "rank": 16723968,
+        "matching_device_id": "SWD\\GenericRaw",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "SWD\\DEVICE-0063",
+      "description": "Microsoft Passport Container Enumeration Bus",
+      "class": "SoftwareDevice",
+      "class_guid": "{62f9c741-b25a-46ce-b54c-9bccce08b6f2}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [],
+      "compatible_ids": [
+        "SWD\\GenericRaw",
+        "SWD\\Generic"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "c_swdevice.inf",
+        "rank": 16723968,
+        "matching_device_id": "SWD\\GenericRaw",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "TERMINPUT_BUS\\DEVICE-0064",
+      "description": "Remote Desktop Keyboard Device",
+      "class": "Keyboard",
+      "class_guid": "{4d36e96b-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "(Standard system devices)",
+      "present": false,
+      "problem_code": null,
+      "hardware_ids": [
+        "TS_INPT\\TS_KBD"
+      ],
+      "compatible_ids": [
+        "TI_COMPAT_DEVICE"
+      ],
+      "driver": {
+        "version": "10.0.26100.1150",
+        "date": "2009-04-21",
+        "provider": "Microsoft",
+        "inf_path": "termkbd.inf",
+        "rank": 16711680,
+        "matching_device_id": "TS_INPT\\TS_KBD",
+        "signature": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "instance_id": "TERMINPUT_BUS\\DEVICE-0065",
+      "description": "Remote Desktop Mouse Device",
+      "class": "Mouse",
+      "class_guid": "{4d36e96f-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "(Standard system devices)",
+      "present": false,
+      "problem_code": null,
+      "hardware_ids": [
+        "TS_INPT\\TS_MOU"
+      ],
+      "compatible_ids": [
+        "TI_COMPAT_DEVICE"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2009-04-21",
+        "provider": "Microsoft",
+        "inf_path": "termmou.inf",
+        "rank": 16711680,
+        "matching_device_id": "TS_INPT\\TS_MOU",
+        "signature": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "instance_id": "TERMINPUT_BUS\\DEVICE-0066",
+      "description": "Remote Desktop Keyboard Device",
+      "class": "Keyboard",
+      "class_guid": "{4d36e96b-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "(Standard system devices)",
+      "present": false,
+      "problem_code": null,
+      "hardware_ids": [
+        "TS_INPT\\TS_KBD"
+      ],
+      "compatible_ids": [
+        "TI_COMPAT_DEVICE"
+      ],
+      "driver": {
+        "version": "10.0.26100.1150",
+        "date": "2009-04-21",
+        "provider": "Microsoft",
+        "inf_path": "termkbd.inf",
+        "rank": 16711680,
+        "matching_device_id": "TS_INPT\\TS_KBD",
+        "signature": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "instance_id": "TERMINPUT_BUS\\DEVICE-0067",
+      "description": "Remote Desktop Mouse Device",
+      "class": "Mouse",
+      "class_guid": "{4d36e96f-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "(Standard system devices)",
+      "present": false,
+      "problem_code": null,
+      "hardware_ids": [
+        "TS_INPT\\TS_MOU"
+      ],
+      "compatible_ids": [
+        "TI_COMPAT_DEVICE"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2009-04-21",
+        "provider": "Microsoft",
+        "inf_path": "termmou.inf",
+        "rank": 16711680,
+        "matching_device_id": "TS_INPT\\TS_MOU",
+        "signature": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "instance_id": "TS_USB_HUB_Enumerator\\DEVICE-0068",
+      "description": "Remote Desktop USB Hub",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "(Standard system devices)",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "UMB\\TS_URB_HUB"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.9444",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "tsusbhub.inf",
+        "rank": 16711680,
+        "matching_device_id": "UMB\\TS_URB_HUB",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "UMB\\DEVICE-0069",
+      "description": "Bus de caméra de bureau à distance",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "UMB\\UMBUS"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.1150",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "umbus.inf",
+        "rank": 16711680,
+        "matching_device_id": "UMB\\UMBUS",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "UMB\\DEVICE-0070",
+      "description": "UMBus Enumerator",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "UMB\\UMBUS"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.1150",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "umbus.inf",
+        "rank": 16711680,
+        "matching_device_id": "UMB\\UMBUS",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "UMB\\DEVICE-0071",
+      "description": "UMBus Enumerator",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "UMB\\UMBUS"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.1150",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "umbus.inf",
+        "rank": 16711680,
+        "matching_device_id": "UMB\\UMBUS",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "UMB\\DEVICE-0072",
+      "description": "UMBus Enumerator",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "UMB\\UMBUS"
+      ],
+      "compatible_ids": [],
+      "driver": {
+        "version": "10.0.26100.1150",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "umbus.inf",
+        "rank": 16711680,
+        "matching_device_id": "UMB\\UMBUS",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "VMBUS\\DEVICE-0073",
+      "description": null,
+      "class": null,
+      "class_guid": null,
+      "manufacturer": null,
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "VMBUS\\PowerDevice"
+      ],
+      "compatible_ids": [
+        "VMBUS\\PowerDevice"
+      ],
+      "driver": null
+    },
+    {
+      "instance_id": "VMBUS\\DEVICE-0074",
+      "description": "Microsoft Hyper-V Guest Shutdown",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "VMBUS\\{0e0b6031-5213-4934-818b-38d90ced39db}",
+        "VMBUS\\{b6650ff7-33bc-4840-8048-e0676786f393}"
+      ],
+      "compatible_ids": [
+        "VMBUS\\{0e0b6031-5213-4934-818b-38d90ced39db}"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "wvmic_shutdown.inf",
+        "rank": 16711681,
+        "matching_device_id": "VMBUS\\{b6650ff7-33bc-4840-8048-e0676786f393}",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "VMBUS\\DEVICE-0075",
+      "description": "Microsoft Hyper-V Remote Desktop Virtualization",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "VMBUS\\{276aacf4-ac15-426c-98dd-7521ad3f01fe}",
+        "VMBUS\\{f5bee29c-1741-4aad-a4c2-8fdedb46dcc2}"
+      ],
+      "compatible_ids": [
+        "VMBUS\\{276aacf4-ac15-426c-98dd-7521ad3f01fe}"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "wvmic_ext.inf",
+        "rank": 16711680,
+        "matching_device_id": "VMBUS\\{276aacf4-ac15-426c-98dd-7521ad3f01fe}",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "VMBUS\\DEVICE-0076",
+      "description": "Microsoft Hyper-V Activation Component",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "VMBUS\\{3375baf4-9e15-4b30-b765-67acb10d607b}",
+        "VMBUS\\{4487b255-b88c-403f-bb51-d1f69cf17f87}"
+      ],
+      "compatible_ids": [
+        "VMBUS\\{3375baf4-9e15-4b30-b765-67acb10d607b}"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "wvmic.inf",
+        "rank": 16711680,
+        "matching_device_id": "VMBUS\\{3375baf4-9e15-4b30-b765-67acb10d607b}",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "VMBUS\\DEVICE-0077",
+      "description": "Microsoft Hyper-V Guest Service Interface",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "VMBUS\\{34d14be3-dee4-41c8-9ae7-6b174977c192}",
+        "VMBUS\\{eb765408-105f-49b6-b4aa-c123b64d17d4}"
+      ],
+      "compatible_ids": [
+        "VMBUS\\{34d14be3-dee4-41c8-9ae7-6b174977c192}"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "wvmic_guestinterface.inf",
+        "rank": 16711681,
+        "matching_device_id": "VMBUS\\{eb765408-105f-49b6-b4aa-c123b64d17d4}",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "VMBUS\\DEVICE-0078",
+      "description": "Microsoft Hyper-V Volume Shadow Copy",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "VMBUS\\{35fa2e29-ea23-4236-96ae-3a6ebacba440}",
+        "VMBUS\\{2450ee40-33bf-4fbd-892e-9fb06e9214cf}"
+      ],
+      "compatible_ids": [
+        "VMBUS\\{35fa2e29-ea23-4236-96ae-3a6ebacba440}"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "wvmic_vss.inf",
+        "rank": 16711681,
+        "matching_device_id": "VMBUS\\{2450ee40-33bf-4fbd-892e-9fb06e9214cf}",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "VMBUS\\DEVICE-0079",
+      "description": "Microsoft Hyper-V Dynamic Memory",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "VMBUS\\{525074dc-8985-46e2-8057-a307dc18a502}",
+        "VMBUS\\{1eccfd72-4b41-45ef-b73a-4a6e44c12924}"
+      ],
+      "compatible_ids": [
+        "VMBUS\\{525074dc-8985-46e2-8057-a307dc18a502}"
+      ],
+      "driver": {
+        "version": "10.0.26100.5074",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "wdmvsc.inf",
+        "rank": 16711680,
+        "matching_device_id": "VMBUS\\{525074dc-8985-46e2-8057-a307dc18a502}",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "VMBUS\\DEVICE-0080",
+      "description": "Microsoft Hyper-V Heartbeat",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "VMBUS\\{57164f39-9115-4e78-ab55-382f3bd5422d}",
+        "VMBUS\\{fd149e91-82e0-4a7d-afa6-2a4166cbd7c0}"
+      ],
+      "compatible_ids": [
+        "VMBUS\\{57164f39-9115-4e78-ab55-382f3bd5422d}"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "wvmic_heartbeat.inf",
+        "rank": 16711680,
+        "matching_device_id": "VMBUS\\{57164f39-9115-4e78-ab55-382f3bd5422d}",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "VMBUS\\DEVICE-0081",
+      "description": "Microsoft Hyper-V Time Synchronization",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "VMBUS\\{9527e630-d0ae-497b-adce-e80ab0175caf}",
+        "VMBUS\\{2dd1ce17-079e-403c-b352-a1921ee207ee}"
+      ],
+      "compatible_ids": [
+        "VMBUS\\{9527e630-d0ae-497b-adce-e80ab0175caf}"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "wvmic_timesync.inf",
+        "rank": 16711681,
+        "matching_device_id": "VMBUS\\{2dd1ce17-079e-403c-b352-a1921ee207ee}",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "VMBUS\\DEVICE-0082",
+      "description": "Microsoft Hyper-V Data Exchange",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "VMBUS\\{a9a0f4e7-5a45-4d96-b827-8a841e8c03e6}",
+        "VMBUS\\{242ff919-07db-4180-9c2e-b86cb68c8c55}"
+      ],
+      "compatible_ids": [
+        "VMBUS\\{a9a0f4e7-5a45-4d96-b827-8a841e8c03e6}"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "wvmic_kvpexchange.inf",
+        "rank": 16711681,
+        "matching_device_id": "VMBUS\\{242ff919-07db-4180-9c2e-b86cb68c8c55}",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "VMBUS\\DEVICE-0083",
+      "description": "Microsoft Hyper-V SCSI Controller",
+      "class": "SCSIAdapter",
+      "class_guid": "{4d36e97b-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "VMBUS\\{ba6163d9-04a1-4d29-b605-72e2ffb1dc7f}",
+        "VMBUS\\{91217080-633f-4c88-8cf8-975359f9b1bf}"
+      ],
+      "compatible_ids": [
+        "VMBUS\\{ba6163d9-04a1-4d29-b605-72e2ffb1dc7f}"
+      ],
+      "driver": {
+        "version": "10.0.26100.8972",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "wstorvsc.inf",
+        "rank": 16711680,
+        "matching_device_id": "VMBUS\\{ba6163d9-04a1-4d29-b605-72e2ffb1dc7f}",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "VMBUS\\DEVICE-0084",
+      "description": "Microsoft Hyper-V Input",
+      "class": "HIDClass",
+      "class_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "VMBUS\\{cfa8b69e-5b4a-4cc0-b98b-8ba1a1f3f95a}",
+        "VMBUS\\{58f75a6d-d949-4320-99e1-a2a2576d581c}"
+      ],
+      "compatible_ids": [
+        "VMBUS\\{cfa8b69e-5b4a-4cc0-b98b-8ba1a1f3f95a}"
+      ],
+      "driver": {
+        "version": "10.0.26100.1150",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "wvmbushid.inf",
+        "rank": 16711680,
+        "matching_device_id": "VMBUS\\{cfa8b69e-5b4a-4cc0-b98b-8ba1a1f3f95a}",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "VMBUS\\DEVICE-0085",
+      "description": "Microsoft Hyper-V Video",
+      "class": "Display",
+      "class_guid": "{4d36e968-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "VMBUS\\{da0a7802-e377-4aac-8e77-0558eb1073f8}",
+        "VMBUS\\{5620e0c7-8062-4dce-aeb7-520c7ef76171}"
+      ],
+      "compatible_ids": [
+        "VMBUS\\{da0a7802-e377-4aac-8e77-0558eb1073f8}"
+      ],
+      "driver": {
+        "version": "10.0.26100.1150",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "wvmbusvideo.inf",
+        "rank": 14483456,
+        "matching_device_id": "VMBUS\\{da0a7802-e377-4aac-8e77-0558eb1073f8}",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "VMBUS\\DEVICE-0086",
+      "description": "Microsoft Hyper-V Network Adapter",
+      "class": "Net",
+      "class_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "VMBUS\\{f8615163-df3e-46c5-913f-f2d2f965ed0e}",
+        "VMBUS\\{ab333513-444a-4493-9b11-db3a5977dd2a}"
+      ],
+      "compatible_ids": [
+        "VMBUS\\{f8615163-df3e-46c5-913f-f2d2f965ed0e}"
+      ],
+      "driver": {
+        "version": "10.0.26100.9711",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "wnetvsc.inf",
+        "rank": 16711680,
+        "matching_device_id": "VMBUS\\{f8615163-df3e-46c5-913f-f2d2f965ed0e}",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "VMBUS\\DEVICE-0087",
+      "description": "Microsoft Hyper-V Remote Desktop Control Channel",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "VMBUS\\{f8e65716-3cb3-4a06-9a60-1889c5cccab5}",
+        "VMBUS\\{99221fa0-24ad-11e2-be98-001aa01bbf6e}"
+      ],
+      "compatible_ids": [
+        "VMBUS\\{f8e65716-3cb3-4a06-9a60-1889c5cccab5}"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "wvmic.inf",
+        "rank": 16711680,
+        "matching_device_id": "VMBUS\\{f8e65716-3cb3-4a06-9a60-1889c5cccab5}",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "VMBUS\\DEVICE-0088",
+      "description": "Microsoft Hyper-V Virtual Keyboard",
+      "class": "Keyboard",
+      "class_guid": "{4d36e96b-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": true,
+      "problem_code": null,
+      "hardware_ids": [
+        "VMBUS\\{f912ad6d-2b17-48ea-bd65-f927a61c7684}",
+        "VMBUS\\{d34b2567-b9b6-42b9-8778-0a4ec0b955bf}"
+      ],
+      "compatible_ids": [
+        "VMBUS\\{f912ad6d-2b17-48ea-bd65-f927a61c7684}"
+      ],
+      "driver": {
+        "version": "10.0.26100.1150",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "whyperkbd.inf",
+        "rank": 16711680,
+        "matching_device_id": "VMBUS\\{f912ad6d-2b17-48ea-bd65-f927a61c7684}",
+        "signature": {
+          "state": "signed",
+          "signer": "Microsoft Windows"
+        }
+      }
+    },
+    {
+      "instance_id": "VMBUS\\DEVICE-0089",
+      "description": "Microsoft Hyper-V Remote Desktop Data Channel",
+      "class": "System",
+      "class_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+      "manufacturer": "Microsoft",
+      "present": false,
+      "problem_code": null,
+      "hardware_ids": [
+        "VMBUS\\{f9e9c0d3-b511-4a48-8046-d38079a8830c}",
+        "VMBUS\\{99221fa2-24ad-11e2-be98-001aa01bbf6e}"
+      ],
+      "compatible_ids": [
+        "VMBUS\\{f9e9c0d3-b511-4a48-8046-d38079a8830c}"
+      ],
+      "driver": {
+        "version": "10.0.26100.1",
+        "date": "2006-06-21",
+        "provider": "Microsoft",
+        "inf_path": "wvmic.inf",
+        "rank": 16711680,
+        "matching_device_id": "VMBUS\\{f9e9c0d3-b511-4a48-8046-d38079a8830c}",
+        "signature": {
+          "state": "unknown"
+        }
+      }
+    }
+  ],
+  "windows_update": {
+    "criteria": "IsInstalled=0 and Type='Driver'",
+    "offers": [
+      {
+        "title": "Alienware - Extension - 1.0.0.0",
+        "hardware_id": "monitor\\dela246",
+        "driver_date": "2023-10-06",
+        "provider": "Alienware",
+        "manufacturer": "Alienware",
+        "model": "Alienware FXDisplay - AW3225QF Device DisplayPort HDR Extension",
+        "class": "Extension"
+      },
+      {
+        "title": "Microsoft Corporation AudioProcessingObject Driver Update (1.0.4.7057)",
+        "hardware_id": "swc\\ven_msft&audio_effectpack_voiceclarity",
+        "driver_date": "2026-06-16",
+        "provider": "Microsoft Corporation",
+        "manufacturer": "Microsoft Corporation",
+        "model": "Voice Clarity",
+        "class": "OtherHardware"
+      },
+      {
+        "title": "Dell Inc. Monitor Driver Update (1.1.0.0)",
+        "hardware_id": "monitor\\dela246",
+        "driver_date": "2026-06-18",
+        "provider": "Dell Inc.",
+        "manufacturer": "Dell Inc.",
+        "model": "Alienware AW3225QF(DisplayPort HDR)",
+        "class": "OtherHardware"
+      },
+      {
+        "title": "Alienware Extension Driver Update (2.0.0.0)",
+        "hardware_id": "monitor\\dela246",
+        "driver_date": "2026-06-21",
+        "provider": "Alienware",
+        "manufacturer": "Alienware",
+        "model": "Alienware FXDisplay - AW3225QF Device DisplayPort HDR Extension",
+        "class": "Extension"
+      },
+      {
+        "title": "Intel Corporation Bluetooth Driver Update (24.80.0.2)",
+        "hardware_id": "usb\\vid_8087&pid_0033&rev_0000",
+        "driver_date": "2026-09-01",
+        "provider": "Intel Corporation",
+        "manufacturer": "Intel Corporation",
+        "model": "Intel(R) Wireless Bluetooth(R)",
+        "class": "OtherHardware"
+      },
+      {
+        "title": "Intel net Driver Update (24.80.0.2)",
+        "hardware_id": "pci\\ven_8086&dev_7a70&subsys_00948086",
+        "driver_date": "2026-09-16",
+        "provider": "Intel",
+        "manufacturer": "Intel Corporation",
+        "model": "Intel(R) Wi-Fi 6E AX211 160MHz",
+        "class": "Networking"
+      }
+    ],
+    "error": null
+  }
+}
